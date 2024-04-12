@@ -32,12 +32,13 @@ a:hover {
   background-color: black;
 }
 
-.col-sm-4 {
+.col-sm-4, .col-sm-3 {
   color: black;
   border: 1px solid black;
   margin: 100px;
   height: 300px;
   width: 315px;
+  margin-left: 190px;
 }
 
 footer {
