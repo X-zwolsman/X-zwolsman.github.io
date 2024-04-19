@@ -4,7 +4,6 @@
 }
 
 div {
-  border: 1px solid blac;
   height: 70px;
 }
 
@@ -57,4 +56,12 @@ h2 {
 .center, .height {
   text-align: center;
   height: 200px;
+}
+
+
+.height-top {
+  margin-top: 200px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
 }
