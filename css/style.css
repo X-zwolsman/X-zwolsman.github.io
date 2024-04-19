@@ -20,7 +20,6 @@ header {
 
 a {
   text-decoration: none;
-  color: white;
 }
 
 a:hover {
@@ -29,11 +28,9 @@ a:hover {
 
 .col-sm-12 {
   height: 800px;
-  background-color: black;
 }
 
 .col-sm-4, .col-sm-3 {
-  color: black;
   border: 1px solid black;
   margin: 100px;
   height: 300px;
@@ -54,9 +51,10 @@ h1,
 h2 {
   display: flex;
   justify-content: center;
-  color: white;
   margin-top: 30px;
 }
 
-main {
+.center, .height {
+  text-align: center;
+  height: 200px;
 }
