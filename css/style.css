@@ -29,7 +29,8 @@ a:hover {
   height: 800px;
 }
 
-.col-sm-4, .col-sm-3 {
+.col-sm-4,
+.col-sm-3 {
   border: 1px solid black;
   margin: 100px;
   height: 300px;
@@ -53,7 +54,8 @@ h2 {
   margin-top: 30px;
 }
 
-.center, .height {
+.center,
+.height {
   text-align: center;
   height: 200px;
 }
