@@ -7,15 +7,9 @@ div {
   height: 70px;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-  padding: 12px;
-}
 
-.col-lg {
-  background-color: grey;
-}
+
+
 
 a {
   text-decoration: none;
@@ -36,15 +30,6 @@ a:hover {
   height: 300px;
   width: 315px;
   margin-left: 190px;
-}
-
-footer {
-  position: fixed;
-  bottom: 0%;
-  left: 0%;
-  width: 100%;
-  text-align: center;
-  background-color: grey;
 }
 
 h1,
