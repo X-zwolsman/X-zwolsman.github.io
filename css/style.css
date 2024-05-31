@@ -7,10 +7,6 @@ div {
   height: 70px;
 }
 
-
-
-
-
 a {
   text-decoration: none;
 }
@@ -25,11 +21,9 @@ a:hover {
 
 .col-sm-4,
 .col-sm-3 {
-  border: 1px solid black;
-  margin: 100px;
   height: 300px;
   width: 315px;
-  margin-left: 190px;
+
 }
 
 h1,
@@ -39,9 +33,8 @@ h2 {
   margin-top: 30px;
 }
 
-.center,
+
 .height {
-  text-align: center;
   height: 200px;
 }
 
