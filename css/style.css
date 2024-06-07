@@ -13,11 +13,16 @@ div {
   height: 800px;
 }
 
-.col-sm-4,
+
 .col-sm-3 {
   height: 520px;
   width: 315px;
 
+}
+
+.col-sm-4 {
+  height: 300px;
+  width: 315px;
 }
 
 h1,
