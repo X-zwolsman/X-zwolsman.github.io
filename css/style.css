@@ -7,15 +7,12 @@ div {
   height: 70px;
 }
 
-
-
 .col-sm-12 {
   height: 800px;
 }
 
-
 .col-sm-3 {
-  height: 560px;
+  height: 520px;
   width: 315px;
 
 }
@@ -27,22 +24,16 @@ div {
 
 h1,
 h2 {
-  display: flex;
-  justify-content: center;
   margin-top: 30px;
 }
-
 
 .height {
   height: 200px;
 }
 
-
 .height-top {
   margin-top: 200px;
   height: 200px;
-  background-color: white;
-  border: 1px solid black;
 }
 
 .footer {
