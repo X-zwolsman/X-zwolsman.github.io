@@ -1,0 +1,104 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url(/img/background\ wam.png);
+    background-size: cover;
+}
+
+.nameButton{
+    background-color: brown;
+}
+
+.title{
+    color:whitesmoke;
+    font-size: 20px;
+   font-family: 'Courier New', Courier, monospace;
+   background-color: burlywood;
+   border: 5px solid white;
+   border-radius: 25px;
+   width: 25%;
+   height:25%;
+   margin-left: 38%;
+}
+#board{
+    width: 740px;
+    height: 740px;
+    background-color: green;
+    background: url(/img/soil.png);
+    background-size: cover;
+    border: 5px solid white;
+    border-radius: 25px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board div{
+    /* board = 740x740px 3x3 board*/
+    width: 246px;
+    height: 246px;
+    background-image: url(/img/pipe.png);
+    background-size: cover ;
+}
+
+#board div img{
+    width: 100px;
+    height: 100px;
+}
+
+#playerName{
+    color:whitesmoke;
+    font-size: 20px;
+   font-family: 'Courier New', Courier, monospace;
+   background-color: blue;
+   border: 5px solid white;
+   border-radius: 25px;
+   width: 10%;
+   margin-left: 45%;
+}
+/*---------------------------------------------------------------------*/
+#board.board-4x4 div img.mole-4x4 {
+    width: 80px; /* Grootte voor een 4x4 bord */
+    height:80px ; /* Grootte voor een 4x4 bord */
+}
+
+#board.board-4x4 div {
+    width:180px ; /* Grootte voor een 4x4 bord */
+    height:180px ; /* Grootte voor een 4x4 bord */
+}
+
+/*---------------------------------------------------------------------*/
+
+#board.board-5x5 div img.mole-5x5 {
+    width: 80px; /* Grootte voor een 5x5 bord */
+    height:80px ; /* Grootte voor een 5x5 bord */
+}
+
+#board.board-5x5 div {
+    width:148px ; /* Grootte voor een 5x5 bord */
+    height:148px ; /* Grootte voor een 5x5  bord */
+}
+
+/*---------------------------------------------------------------------*/
+
+#board.board-6x6 div img.mole-6x6 {
+    width: 80px; /* Grootte voor een 6x6 bord */
+    height:80px ; /* Grootte voor een 6x6 bord */
+}
+
+#board.board-6x6 div {
+    width:120px ; /* Grootte voor een 6x6 bord */
+    height:120px ; /* Grootte voor een 6x6 bord */
+}
+/*---------------------------------------------------------------------*/
+#homeButton{
+    background:url(/img/home\ button.png);
+   background-size: cover;
+   position:absolute;
+   width: 150px;
+   height: 150px;
+   top: 100px;
+   right: 200px;
+   border-radius: 100px;
+   border: 4px solid blue;
+}

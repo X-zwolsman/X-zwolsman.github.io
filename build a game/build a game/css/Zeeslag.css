@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cornflowerblue;
+    background: url(//img/217-2173972_world-of-warships-wallpaper-yamato.jpg);
+    background-size: cover;
+
+}
+
+
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.board {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.board .cell {
+    border: 1px solid #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.messages {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 300px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+
+.score-overview {
+    position: absolute;
+    top: 100px;
+}
